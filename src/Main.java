@@ -22,16 +22,18 @@ public class Main {
             }
             list.add(temp);
         }
-        System.out.println(list.toString());
+        System.out.println(list);
 
         //loop to check coordinates
         System.out.println("number of coordinates to check:");
         option = scanner.nextInt();
         for (int i = 0; i < option; i++) {
             System.out.println("enter coordinates in array:");
+            System.out.println("Outer:");
             int x = scanner.nextInt();
+            System.out.println("Inner:");
             int y = scanner.nextInt();
-            System.out.println("coordinates in array:" + x + " " + y);
+            System.out.println((list.get(x)).get(y));
         }
     }
 }
