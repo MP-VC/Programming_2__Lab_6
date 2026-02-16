@@ -1,0 +1,3 @@
+The differences:
+-The main keeps the array the same whilst the alt turns it into a jagged array
+-The main checks the coordinates valdility directly. The alt makes an object to check
