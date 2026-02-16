@@ -33,7 +33,7 @@ public class Main {
             int x = scanner.nextInt();
             System.out.println("Inner:");
             int y = scanner.nextInt();
-            System.out.println((list.get(x)).get(y));
+            Util.checkCoordinates(list, x, y);
         }
     }
 }
